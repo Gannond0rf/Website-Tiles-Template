@@ -1,0 +1,21 @@
+:root {
+    --dark-grey: #404040;
+    --blue: #5995ED;
+    --red: #EA2200;
+    --grey: #DDDDDD;
+    --green: #50D569;
+    --light-grey: #F3F3F3;
+    /*--light-blue: #b4e8ff;*/
+    --light-blue: #d7f3ff;
+    --button-focus: #69a5e3;
+    --light-red: #f3bdbd;
+    --border-radius: 4px;
+    --focus-shadow: rgba(0,0,0,0.15);
+    --padding: 1rem;
+    --margin: 1rem;
+    --page-width: 1366px;
+    --font-size: 14px;
+    --line-height: 16.1px;
+    --link-col: #0057db;
+    --page-top: 102px;
+}
