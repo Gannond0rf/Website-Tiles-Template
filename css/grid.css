@@ -23,14 +23,12 @@ a.cell:hover {
 	text-decoration: none;
 }
 
-/* image-rendering: -webkit-optimize-contrast; */
-
 a.cell > img {
 	width: 100%;
 	height: 100%;
 	grid-column: 1;
 	grid-row: 1;
-	image-rendering: -webkit-optimize-contrast;
+	/* image-rendering: -webkit-optimize-contrast; */
 	object-fit: cover;
 	object-position: center;
 	filter: brightness(65%);
