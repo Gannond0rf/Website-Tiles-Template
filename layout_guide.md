@@ -9,7 +9,7 @@
 ## Cell
 
 ```html
-<a class="cell" href="/products">
+<a class="cell span2-1" href="/products">
 	<img src="content/grid-images/bsg-photo.jpg" title="Clearance Products"/>
 	<div>
 		<h1>Clearance Products</h1>
@@ -18,100 +18,50 @@
 </a>
 ```
 
+```css
+.span2-1
+.span2-2
+.span3-1
+.span3-2
+.span3-3
+.span4-1
+.span4-2
+.span4-3
+.span4-4
+```
+
+```css
+.spanX-Y
+```
+
+X is the column span, Y is the row span.
+
+```css
+.aspect-wide-short
+```
+
+For use with 1 column layouts (```grid-1```) and you want a wide image that's also short in height.
+
+## Grids
+
+```css
+/* 1 Column */
+.grid-1
+
+/* 2 Column */
+.grid-2
+
+/* 3 Column */
+.grid-3
+
+/* 4 Column */
+.grid-4
+```
+
 ## Images
 
-```
-img-100w
-
-for image that takes 100% width
+```css
+.img-100w
 ```
 
-## 1 Column
-
-```
-grid-1
-
-+-----+
-|     |
-+-----+
-```
-
-## 2 Column
-
-```
-grid-2
-
-+-+-+
-| | |
-+-+-+
-```
-
-```
-grid-2a
-
-+-+-+
-| | |
-| +-+
-| | |
-+-+-+
-```
-
-## 3 Column
-
-```
-grid-3
-
-+-+-+-+
-| | | |
-+-+-+-+
-```
-
-```
-grid-3a
-
-+---+-+
-|   | |
-|   +-+
-|   | |
-+---+-+
-```
-
-```
-grid-3b
-
-+---+-+
-|   | |
-+---+-+
-|   | |
-+---+-+
-```
-
-## 4 Column
-
-```
-grid-4
-
-+-+-+-+-+
-| | | | |
-+-+-+-+-+
-```
-
-```
-grid-4a
-
-+---+-+-+
-|   | | |
-|   +-+-+
-|   | | |
-+---+-+-+
-```
-
-```
-grid-4b
-
-+---+-+-+
-|   | | |
-+---+-+-+
-|   | | |
-+---+-+-+
-```
+Will give you an image that fits the container by width. Be careful as this could end up taking up the whole screen when the window is maximized unless the image is particularly short. Might be better to use a grid and then span the image across the whole width.
