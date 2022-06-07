@@ -18,6 +18,14 @@
 </a>
 ```
 
+## Images
+
+```
+img-100w
+
+for image that takes 100% width
+```
+
 ## 1 Column
 
 ```
