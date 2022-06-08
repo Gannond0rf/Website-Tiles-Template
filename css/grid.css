@@ -72,6 +72,14 @@ a.cell > div > h1, h2 {
 	margin: 0;
 }
 
+.no-hover > img {
+	transition: none !important;
+}
+
+.no-hover > img {
+	transform: none !important;
+}
+
 .span2-1 {
 	grid-column: span 2;
 	aspect-ratio: 4 / 1.5 !important;
