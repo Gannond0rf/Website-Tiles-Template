@@ -42,6 +42,12 @@ X is the column span, Y is the row span.
 
 For use with 1 column layouts (```grid-1```) and you want a wide image that's also short in height.
 
+```css
+.no-hover
+```
+
+Disables the hover animation. Useful for static images with no link that still need to be a cell.
+
 ## Grids
 
 ```css
