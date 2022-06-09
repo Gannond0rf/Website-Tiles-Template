@@ -81,6 +81,14 @@ a.cell > div > h1, h2 {
 	transform: none !important;
 }
 
+.align-top > img {
+	object-position: top !important;
+}
+
+.align-bottom > img {
+	object-position: bottom !important;
+}
+
 .span2-1 {
 	grid-column: span 2;
 	aspect-ratio: 4 / 1.5 !important;
