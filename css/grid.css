@@ -89,6 +89,24 @@ a.cell > div > h1, h2 {
 	object-position: bottom !important;
 }
 
+.span1-2 {
+	grid-column: span 1;
+	grid-row: span 2;
+	aspect-ratio: 4 / 6 !important;
+}
+
+.span1-3 {
+	grid-column: span 1;
+	grid-row: span 3;
+	aspect-ratio: 4 / 9 !important;
+}
+
+.span1-4 {
+	grid-column: span 1;
+	grid-row: span 4;
+	aspect-ratio: 4 / 12 !important;
+}
+
 .span2-1 {
 	grid-column: span 2;
 	aspect-ratio: 4 / 1.5 !important;
@@ -97,6 +115,18 @@ a.cell > div > h1, h2 {
 .span2-2 {
 	grid-column: span 2;
 	grid-row: span 2;
+}
+
+.span2-3 {
+	grid-column: span 2;
+	grid-row: span 3;
+	aspect-ratio: 8 / 9 !important;
+}
+
+.span2-4 {
+	grid-column: span 2;
+	grid-row: span 4;
+	aspect-ratio: 8 / 12 !important;
 }
 
 .span3-1 {
@@ -113,6 +143,12 @@ a.cell > div > h1, h2 {
 .span3-3 {
 	grid-column: span 3;
 	grid-row: span 3;
+}
+
+.span3-4 {
+	grid-column: span 3;
+	grid-row: span 4;
+	aspect-ratio: 12 / 12 !important;
 }
 
 .span4-1 {
@@ -179,10 +215,13 @@ a.cell > div > h1, h2 {
 }
 
 @media screen and (max-width: 768px) {
+	.grid-1 .span1-2,.span1-3,.span1-4 {
+		aspect-ratio: 4 / 3 !important;
+	}
 	.grid-2 {
 		grid-template-columns: 1fr;
 	}
-	.grid-2 .span2-1,.span2-2 {
+	.grid-2 .span1-2,.span1-3,.span1-4,.span2-1,.span2-2,.span2-3,.span-2-4 {
 		grid-column: span 1;
 		grid-row: span 1;
 		aspect-ratio: 4 / 3 !important;
@@ -190,7 +229,7 @@ a.cell > div > h1, h2 {
 	.grid-3 {
 		grid-template-columns: 1fr;
 	}
-	.grid-3 .span2-1,.span2-2,.span3-1,.span3-2,.span3-3 {
+	.grid-3 .span1-2,.span1-3,.span1-4,.span2-1,.span2-2,.span2-3,.span-2-4,.span3-1,.span3-2,.span3-3,.span3-4 {
 		grid-column: span 1;
 		grid-row: span 1;
 		aspect-ratio: 4 / 3 !important;
@@ -198,7 +237,7 @@ a.cell > div > h1, h2 {
 	.grid-4 {
 		grid-template-columns: repeat(2, 1fr);
 	}
-	.grid-4 .span2-1,.span2-2,.span3-1,.span3-2,.span3-3,.span4-3,.span4-4 {
+	.grid-4 .span1-2,.span1-3,.span1-4,.span2-1,.span2-2,.span2-3,.span-2-4,.span3-1,.span3-2,.span3-3,.span3-4,.span4-3,.span4-4 {
 		grid-column: span 1;
 		grid-row: span 1;
 		aspect-ratio: 4 / 3 !important;
