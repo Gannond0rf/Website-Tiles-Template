@@ -54,7 +54,7 @@ a.cell > img {
 }
 
 a.cell > img:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 
 a.cell > div {
@@ -237,7 +237,7 @@ a.cell > div > h1, h2 {
 	.grid-4 {
 		grid-template-columns: repeat(2, 1fr);
 	}
-	.grid-4 .span1-2,.span1-3,.span1-4,.span2-1,.span2-2,.span2-3,.span-2-4,.span3-1,.span3-2,.span3-3,.span3-4,.span4-3,.span4-4 {
+	.grid-4 .span1-2,.span1-3,.span1-4,.span2-1,.span2-2,.span2-3,.span2-4,.span3-1,.span3-2,.span3-3,.span3-4,.span4-3,.span4-4 {
 		grid-column: span 1;
 		grid-row: span 1;
 		aspect-ratio: 4 / 3 !important;
